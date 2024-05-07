@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "rohan boda"
+  },
+  "text": {
+    "more": "Books are connected to Categories based on a score. That score is depicted by the edge thickness. The thicker the line, the more central that category is for the story line. Each line\u0027s colour is based on how prevelant the category is with that book (darker the line, more central the category for that book), while the nodes are colored orange for books and yellow for categories. Simply click a book to see what categories appear in the book, or click on a category to see what books the category appears in.",
+    "intro": "Books and Categories with connections based on how prevelant the category is for that book. Hover over the node to learn the book name or category.",
+    "title": "sci fi books"
+  },
+  "legend": {
+    "edgeLabel": "category-book relation",
+    "colorLabel": "importance of categiry in the book",
+    "nodeLabel": "books and category"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
